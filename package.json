@@ -3,21 +3,23 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@reach/router": "^1.3.4",
+    "@react-navigation/native": "^5.7.3",
+    "@react-navigation/stack": "^5.9.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
-    "autoprefixer": "^9.8.6",
-    "postcss-cli": "^7.1.2",
+    "firebase": "^7.20.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3",
-    "tailwindcss": "^1.8.8"
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.3"
   },
   "scripts": {
     "build:css":"postcss src/tail.css -o src/tailwind.css",
     "watch:css":"postcss src/tail.css -o src/tailwind.css -w",
-    "start": "yarn build:css && react-scripts start",
-    "build": "yarn build:css && react-scripts build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

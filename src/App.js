@@ -1,4 +1,6 @@
-import React from 'react';
+import React from "react";
+import Application from "./Components/Application";
+import UserProvider from "./providers/UserProvider";
 import logo from './logo.svg';
 // import './App.css';
 import ProfileDescription from './components/ProfileDescription';
@@ -14,6 +16,9 @@ function App() {
       {/* <Header/> */}
       <ArtistasNav/>
       <ProjectCollaborators/>
+      <UserProvider>
+      <Application />
+    </UserProvider>
       {/* <ProfileDescription/> */}
        <Footer/>
       {/* <header className="App-header">
@@ -31,7 +36,12 @@ function App() {
         </a>
       </header> */}
     </div>
-  );
-}
 
+// function App() {
+//   return (
+//     <UserProvider>
+//       <Application />
+//     </UserProvider>
+);
+ }
 export default App;
