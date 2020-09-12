@@ -3,11 +3,11 @@ import Application from "./Components/Application";
 import UserProvider from "./providers/UserProvider";
 import logo from './logo.svg';
 // import './App.css';
-import ProfileDescription from './components/ProfileDescription';
-import ProjectCollaborators from './components/ProjectCollaborators';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import ArtistasNav from './components/ArtistasNav';
+import ProfileDescription from './Components/ProfileDescription';
+import ProjectCollaborators from './Components/ProjectCollaborators';
+import Header from './Components/Header';
+import Footer from './Components/Footer';
+import ArtistasNav from './Components/ArtistasNav';
 
 function App() {
   return (
